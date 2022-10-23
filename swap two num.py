@@ -1,0 +1,5 @@
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+print("Before swapping value of a,b",a,b)
+(a,b)=(b,a)
+print("After swapping value of a,b",a,b)
