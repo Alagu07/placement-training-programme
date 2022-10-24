@@ -1,4 +1,8 @@
-l = [1, 2, 4, 2, 1, 4, 5]
-print("Original List: ", 1)
-res = [*set(l)]
-print("List after removing duplicate elements: ", res)
+ arr = [10, 89, 9, 56, 4, 80, 8]
+mini = arr[0]
+maxi = arr[0]
+for i in range(len(arr)):
+ if arr[i] < mini: mini = arr[i] 
+if arr[i] > maxi: maxi = arr[i]
+print (mini)
+print (maxi)

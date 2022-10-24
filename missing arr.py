@@ -4,4 +4,3 @@ for ele in range(arr[0], arr[-1]+1):
  if ele not in arr:
  missing_elements.append(ele)
 print(missing_elements)
-14. How to Print duplicate ch
